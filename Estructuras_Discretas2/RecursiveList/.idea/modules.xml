@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model.iml" filepath="$PROJECT_DIR$/.idea/modules/Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Model/.idea/modules/Model/Model.Model-build.iml" filepath="$PROJECT_DIR$/Model/.idea/modules/Model/Model.Model-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Model/.idea/modules/Model/Model.main.iml" filepath="$PROJECT_DIR$/Model/.idea/modules/Model/Model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Model/.idea/modules/Model/Model.test.iml" filepath="$PROJECT_DIR$/Model/.idea/modules/Model/Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RecursiveList.iml" filepath="$PROJECT_DIR$/.idea/RecursiveList.iml" />
+    </modules>
+  </component>
+</project>
