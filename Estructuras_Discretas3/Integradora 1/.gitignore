@@ -1,0 +1,94 @@
+# =========================
+# PYTHON BASICS
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled files
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# VIRTUAL ENVIRONMENTS
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# ENV VARIABLES
+# =========================
+.env
+.env.*
+
+# =========================
+# LOGS
+# =========================
+*.log
+
+# =========================
+# TESTING / COVERAGE
+# =========================
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# =========================
+# JUPYTER (por si usas notebooks)
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# VS CODE
+# =========================
+.vscode/
+
+# =========================
+# PYCHARM / INTELLIJ
+# =========================
+.idea/
+*.iml
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# TEMP FILES
+# =========================
+*.swp
+*.swo
+*~
+
+# =========================
+# PROJECT SPECIFIC (opcional)
+# =========================
+# Archivos generados por tus autómatas o pruebas
+output/
+results/
+temp/

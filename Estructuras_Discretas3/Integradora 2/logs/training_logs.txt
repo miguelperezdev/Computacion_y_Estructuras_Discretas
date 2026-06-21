@@ -1,0 +1,35 @@
+=========================================================
+Training Logs — Integrative Task 2
+Course: Computación y Estructuras Discretas III — 2026-1
+Team: Estefany Villamarin, Miguel Perez, Andres Fajardo
+Dataset: Twitter US Airline Sentiment (500 pos + 500 neg)
+=========================================================
+
+Keras CSVLogger auto-generates per-model CSV files in this directory:
+  logs/DenseNN_training_log.csv
+  logs/VanillaRNN_training_log.csv
+  logs/LSTM_training_log.csv
+
+Each file contains columns: epoch, loss, accuracy, val_loss, val_accuracy
+
+=========================================================
+Manual summary (fill in after running notebook 03):
+
+Dense NN:
+  - Stopped at epoch: [TBD]
+  - Best val_accuracy: [TBD]
+  - Best val_loss:     [TBD]
+
+Vanilla RNN:
+  - Stopped at epoch: [TBD]
+  - Best val_accuracy: [TBD]
+  - Best val_loss:     [TBD]
+
+LSTM:
+  - Stopped at epoch: [TBD]
+  - Best val_accuracy: [TBD]
+  - Best val_loss:     [TBD]
+
+Transformer (DistilBERT):
+  - See notebook 04_transformer_extension.ipynb for results
+=========================================================

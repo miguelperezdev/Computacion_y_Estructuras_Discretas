@@ -1,0 +1,47 @@
+# Entorno virtual
+taxi_env/
+env/
+venv/
+ENV/
+
+# Archivos de datos (son grandes y no deben estar en el repo)
+data/*.parquet
+*.parquet
+
+# Resultados generados por el script (si no quieres versionarlos)
+resultados_comparativa.csv
+comparativa_modelos.png
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Notebooks (si usas Jupyter)
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribuciones y builds
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración local (que contengan rutas o secretos)
+.env
+*.local
+
+# IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db

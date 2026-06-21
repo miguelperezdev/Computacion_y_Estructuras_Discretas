@@ -1,0 +1,54 @@
+=========================================================
+AIGen Prompt Log — Integrative Task 2
+Course: Computación y Estructuras Discretas III — 2026-1
+Team: Estefany Villamarin, Miguel Perez, Andres Fajardo
+=========================================================
+
+--- Interaction 1 ---
+Tool: Claude (claude.ai)
+Topic: RNN vs LSTM architecture and Turing Machine analogy
+Prompt submitted:
+  "Help me understand the difference between RNN and LSTM architectures
+   and how they relate to Turing Machine concepts of memory and state."
+How output was used:
+  Conceptual explanation adapted into notebook 03 markdown cells and the
+  comparative analysis section of the report. The AI-suggested bidirectional
+  LSTM was evaluated and discarded — not required by the assignment. Code
+  was written from scratch in src/models.py to match our project structure.
+
+--- Interaction 2 ---
+Tool: Claude (claude.ai)
+Topic: Cohen's Kappa interpretation
+Prompt submitted:
+  "Explain what Cohen's Kappa measures and why it is more informative than
+   accuracy for classification tasks with balanced datasets."
+How output was used:
+  Synthesized into the evaluation section of the report. A concrete example
+  using our balanced 500+500 Twitter dataset was constructed by us to
+  ground the explanation in project-specific results.
+
+--- Interaction 3 ---
+Tool: Claude (claude.ai)
+Topic: Tweet-specific NLP preprocessing for sentiment analysis
+Prompt submitted:
+  "What preprocessing steps are recommended for sentiment analysis on Twitter
+   data with RNN/LSTM models? How should URLs, mentions, and hashtags be handled?"
+How output was used:
+  Informed the design of the tweet cleaning pipeline in src/preprocessing.py.
+  We implemented URL removal, @mention removal, and hashtag expansion (#word → word).
+  Critical deviation: the AI recommended removing all stopwords, but we chose
+  to keep negation words (not, never, no, nor) after verifying empirically that
+  removing them degraded model accuracy on the validation set.
+
+--- Interaction 4 ---
+Tool: Claude (claude.ai)
+Topic: DistilBERT fine-tuning and Transformer vs RNN conceptual differences
+Prompt submitted:
+  "How does DistilBERT fine-tuning work for text classification, and how does
+   the self-attention mechanism differ conceptually from LSTM's recurrent computation?"
+How output was used:
+  Informed the architecture rationale and TM analogy in notebook 04 markdown cells.
+  The self-attention vs sequential processing comparison was adapted into our
+  conceptual analysis table. All implementation code (TweetDataset, training loop,
+  attention visualization) was written from scratch; AI did not generate code.
+=========================================================

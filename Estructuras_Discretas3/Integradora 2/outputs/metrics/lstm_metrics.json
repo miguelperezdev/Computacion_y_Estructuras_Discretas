@@ -1,0 +1,8 @@
+{
+  "model": "LSTM",
+  "accuracy": 0.5036,
+  "precision": 0.5036,
+  "recall": 1.0,
+  "f1_score": 0.6699,
+  "cohen_kappa": 0.0
+}

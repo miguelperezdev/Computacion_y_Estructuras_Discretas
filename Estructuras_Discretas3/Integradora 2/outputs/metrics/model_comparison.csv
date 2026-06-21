@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1-Score,Cohen Kappa
+Vanilla RNN,0.7291,0.7177,0.7617,0.7391,0.4579
+LSTM (tuned),0.5055,0.5046,1.0,0.6707,0.0037
+DummyClassifier,0.5036,0.5036,1.0,0.6699,0.0
+LSTM,0.5036,0.5036,1.0,0.6699,0.0
+Dense NN,0.7073,0.8333,0.5235,0.643,0.4161
